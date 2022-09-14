@@ -1,0 +1,32 @@
+.row {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    gap: 5px;
+    margin: auto;
+}
+
+.card.memocard {
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+    cursor: pointer;
+    border-radius: 7px;
+    background: #000;
+}
+
+.card-uno, .card-dos {
+    background: #f2f2f2 !important;
+}
+
+.match {
+    background: red !important;
+}
