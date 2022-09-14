@@ -96,10 +96,7 @@ function selectCard(arr) {
                 console.log(`El valor de cardDos es ${cardDos}`)
             }else if(cardUno > 0 && cardDos == 0) {
                 cardDos = parseInt(card.dataset.id)
-        
-                card.classList.add('click', 'card-dos')
-                console.log(`El valor de cardUno es ${cardUno}`)
-                console.log(`El valor de cardDos es ${cardDos}`)
+
                 setTimeout(() => {
                     if(cardUno === cardDos) {
                         console.log('MAAATCHHH')
