@@ -92,10 +92,11 @@ function selectCard(arr) {
                 cardDos = 0;
                 
                 card.classList.add('click', 'card-uno')
-                console.log(`El valor de cardUno es ${cardUno}`)
-                console.log(`El valor de cardDos es ${cardDos}`)
+
             }else if(cardUno > 0 && cardDos == 0) {
                 cardDos = parseInt(card.dataset.id)
+        
+                card.classList.add('click', 'card-dos')
 
                 setTimeout(() => {
                     if(cardUno === cardDos) {
